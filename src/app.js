@@ -14,7 +14,7 @@ app.use(compression())
 
 // init routes
 app.get('/',(req, res, next) => {
-    const strCompress = 'Hello Em Hai'
+    const strCompress = 'Hello Em Hai - develop'
 
     return res.status(200).json({
         message:'hello Hai',
